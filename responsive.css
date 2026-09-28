@@ -1,0 +1,79 @@
+@media (max-width: 700px) {
+    .header-wrap {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    header {
+        padding: 20px 0;
+    }
+
+    header ul {
+        gap: 24px;
+    }
+
+    header ul li a {
+        font-size: 16px;
+    }
+
+    .about-me-wrap {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 40px;
+    }
+
+    .about-right .box {
+        max-width: none;
+        height: 240px;
+    }
+
+    .projects .project-wrap {
+        flex-direction: column;
+    }
+
+    .projects .project-wrap .box {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+
+    .contact {
+        padding: 80px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 18px;
+    }
+
+    .banner h1 br {
+        display: none;
+    }
+
+    .btn-grp,
+    .about-left .skills {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        text-align: center;
+    }
+
+    .about-left .skills {
+        gap: 10px;
+    }
+
+    .about-left .skills .btn-secondary {
+        padding: 10px 14px;
+    }
+
+    .projects {
+        padding: 70px 0;
+    }
+
+    footer {
+        padding: 30px 18px;
+    }
+}
